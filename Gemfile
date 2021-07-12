@@ -3,6 +3,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.1'
 
+#Quill Editor
+gem 'activeadmin_quill_editor'
+#Authentication
 gem 'devise'
 #Jquery
 gem 'jquery-rails'
